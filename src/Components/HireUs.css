@@ -1,0 +1,96 @@
+.hireUs{
+    background-color: var(--cream-colour);
+    padding-bottom: 3rem;
+}
+
+.hireUs-head{
+    font-size: 50px;
+    color: var(--text-colour);
+    text-align: center;
+    padding: 2.5%;
+}
+
+.item {
+    position: relative;
+    border-radius: 1rem;
+    position: relative;
+    max-height: 26rem;
+    min-height: 26rem;
+    max-width: 20rem;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+
+.item:hover {
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+.item:hover p{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top:5% ;
+    padding-bottom: 6%;
+    opacity: 1;
+    margin-top: -10%;
+    background-color: var(--primary-colour);
+}
+.item:hover h6{
+    transition: all 0.5s ease;
+    margin-top: 60%;
+
+}
+
+.item p {
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0;
+    
+}
+.item h6 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--brown-colour);
+    height: 22%;
+    font-size: 20px;
+    margin-top: 110%;
+    width:120%;
+    padding: 19px;
+    margin-left: -10%;
+    font-family: homeHeading;
+}
+
+/* Why Us Section Styles */
+.why-us {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    border-radius: 1rem;
+    width: 85%;
+    margin-left: 8%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.hireUs--cards {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.item.one {
+    background: url('../Icons/designing.jpeg') center/cover no-repeat;
+}
+
+.item.two {
+    background: url('../Icons/developing.jpeg') center/cover no-repeat;
+}
+
+.item.three {
+    background: url('../Icons/marketing.jpeg') center/cover no-repeat;
+}
+
