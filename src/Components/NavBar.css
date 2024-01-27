@@ -1,6 +1,8 @@
 *{
     color: white;
   }
+
+  
   
   .navbar--items{
       display: flex;
@@ -144,5 +146,5 @@
       border-radius: 0px;
       margin: 0;
       width: 100%;
-      background-color: var(--primary-colour);
+      background-color: black;
   }

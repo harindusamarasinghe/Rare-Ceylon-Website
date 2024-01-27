@@ -4,23 +4,25 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 .aboutUs{
     background-color: var(--brown-colour);
     padding-top: 2.5%;
+    padding-bottom: 2.5%;
     border-radius: 1rem;
     margin-left:5% ;
     width: 90%;
 }
+
 .aboutUs-head{
+  font-family: homeHeading;
     color: var(--cream-colour);
     font-size: 50px;
     text-align: center;
 }
 .aboutUs-head span{
     color: var(--yellow-colour);
-    font-family: HeadingFont;
+    font-family: homeHeading;
 
 }
 .aboutUs-para{

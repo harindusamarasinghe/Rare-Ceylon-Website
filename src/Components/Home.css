@@ -15,7 +15,7 @@
 }
 .home--heading span{
     font-family: homeHeading;
-    color: var(--primary-colour);
+    color: var(--yellow-colour);
 }
 
 .home--para{
@@ -61,7 +61,7 @@
     border-radius: 0px;
     min-height: 50px;
     border-color: #CA2E55;
-    margin-left: 40%;
+    margin-left: 45%;
     background-color: var(--text-colour);
     padding: 0 0;
     width: 175px;
@@ -72,7 +72,7 @@
   
   .button-28:hover {
     color: var(--text-colour);
-    background-color:var(--primary-colour);
+    background-color:var(--yellow-colour);
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
@@ -80,4 +80,22 @@
   .button-28:active {
     box-shadow: none;
     transform: translateY(0);
+  }
+
+  @media (max-width: 768px) {
+    
+  
+    .home--heading {
+      font-size: 40px; 
+      padding-top: 10%; 
+    }
+  
+    .home--para {
+      font-size: 16px; 
+    }
+  
+    .home {
+      width: 100%; 
+      margin-left: 0;
+    }
   }

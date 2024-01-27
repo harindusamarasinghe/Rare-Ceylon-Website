@@ -1,0 +1,46 @@
+
+.logo-slider {
+    overflow: hidden;
+    padding: 30px 0 0 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.client-head{
+    font-family: homeHeading;
+    color: var(--text-colour);
+    text-align: center;
+    font-size: 50px;
+    margin: 2.5%;
+}
+.client-head span{
+    font-family: homeHeading;
+    color: var(--primary-colour);
+    
+}
+
+.logo-slider:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 40s slide infinite linear;
+}
+
+.logos-slide img {
+    width: auto;
+    height: 35px;
+    margin: 0 40px;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
