@@ -15,7 +15,7 @@
 }
 .client-head span{
     font-family: homeHeading;
-    color: var(--primary-colour);
+    color: var(--red-colour);
     
 }
 
@@ -42,5 +42,16 @@
 
     to {
         transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 768px) {
+    .client-head {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+
+    .logos-slide img {
+        height: 25px; /* Adjust the logo size for smaller screens */
+        margin: 0 20px; /* Adjust the margin for smaller screens */
     }
 }

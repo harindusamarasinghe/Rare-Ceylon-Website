@@ -104,9 +104,74 @@
   color: #fff;
 }
 
-@media (min-width: 768px) {
-  .button-81 {
-    font-size: 1.125rem;
-    padding: 1rem 2rem;
-  }
+@media (max-width:850px) {
+    
+    .content {
+        flex-direction: column;
+}
+.team-head{
+    color: var(--text-colour);
+    font-family: homeHeading;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 30px;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.team-para{
+    color: var(--brown-colour);
+    margin-left: 5%;
+    margin-top: -7%;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-slide{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.img-container {
+    height: 25rem;/* Adjust the desired height for smaller screens */
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.img {
+    height: 100%; /* Adjust the desired height for smaller screens */
+    
+    object-fit: cover;
+    border-radius: 10px;
+}
+.sub {
+    flex-direction: column; /* Stack elements in the sub-section */
+    align-items: center;
+}
+
+.sub-fields {
+    flex-direction: column; /* Stack fields vertically */
+    gap: 1rem; /* Adjust the gap between fields */
+}
+
+.sub-head {
+    font-size: 25px; /* Adjust the font size for smaller screens */
+}
+
+.custom-textfield {
+    width: 100%; /* Make the textfield full width */
+    max-width: 20rem; /* Set a maximum width if needed */
+}
+
+.button-81 {
+    margin-top: 1rem; /* Add spacing between the textfield and the button */
+}
+
+
+
+
+    
+
 }

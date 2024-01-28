@@ -32,7 +32,7 @@
     border: 2px solid var(--secondary-colour);
     border-radius: 15px;
     box-sizing: border-box;
-    color: var(--secondary-colour);
+    color: var(--text-colour);
     cursor: pointer;
     display: inline-block;
     letter-spacing: .1rem;
@@ -54,6 +54,11 @@
     will-change: transform;
     
   }
+  .btn28{
+    display: flex;
+    justify-content: center;
+    
+  }
 
   .home{
     position: absolute;
@@ -61,8 +66,8 @@
     border-radius: 0px;
     min-height: 50px;
     border-color: #CA2E55;
-    margin-left: 45%;
-    background-color: var(--text-colour);
+    
+    background-color: var(--yellow-colour);
     padding: 0 0;
     width: 175px;
   }
@@ -71,8 +76,8 @@
   }
   
   .button-28:hover {
-    color: var(--text-colour);
-    background-color:var(--yellow-colour);
+    color: var(--cream-colour);
+    background-color:var(--text-colour);
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
@@ -82,20 +87,42 @@
     transform: translateY(0);
   }
 
-  @media (max-width: 768px) {
-    
-  
+  @media (max-width: 850px) {
+
+    .home--content{
+      height: 50vh;
+  }
+
     .home--heading {
-      font-size: 40px; 
-      padding-top: 10%; 
+      font-size: 30px; 
+      padding-top: 20%; 
     }
   
     .home--para {
-      font-size: 16px; 
+      visibility: hidden;
     }
   
     .home {
-      width: 100%; 
-      margin-left: 0;
+      margin-top: -90px;
     }
+  }
+
+  @media (max-width: 356px) {
+    .home--content{
+      height: 50vh;
+  }
+
+    .home--heading {
+      font-size: 30px; 
+      padding-top: 25%; 
+    }
+  
+    .home--para {
+      visibility: hidden;
+    }
+  
+    .home {
+      margin-top: -90px;
+    }
+
   }

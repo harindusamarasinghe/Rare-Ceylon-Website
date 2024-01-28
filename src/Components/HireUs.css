@@ -95,3 +95,37 @@
     background: url('../Icons/marketing.jpeg') center/cover no-repeat;
 }
 
+@media (max-width: 850px) {
+    .hireUs-head{
+        font-size: 30px;
+    }
+    .item {
+        margin: auto;
+      max-width: 80%; /* Adjust the maximum width for smaller screens */
+    }
+  
+    .why-us {
+      width: 80%; /* Make the container full width on smaller screens */
+      margin-left: 0; /* Remove the left margin on smaller screens */
+    }
+  
+    .hireUs--cards {
+      flex-direction: column; /* Stack cards in a column on smaller screens */
+      gap: 2rem; /* Adjust the gap between cards for smaller screens */
+    }
+  
+    .item.one,
+    .item.two,
+    .item.three {
+      width: 100%; /* Make each item full width on smaller screens */
+      background-size: cover; /* Adjust the background size for smaller screens */
+    }
+    .item:hover h6{
+        
+    }
+    .item:hover p{
+        margin-top: -2%;
+    }
+    
+  }
+
