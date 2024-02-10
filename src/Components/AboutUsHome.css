@@ -1,0 +1,26 @@
+.aboutUs--div{
+    background: url(../Icons/aboutusPage.png) center/cover no-repeat;
+    height: 80vh;
+}
+.aboutUs--heading{
+    font-family: homeHeading;
+    color: var(--cream-colour);
+    font-size: 80px;
+    padding-top:18%;
+    padding-left: 5%;
+    padding-right:5% ;
+    text-align: right;
+}
+
+@media (max-width: 850px) {
+    .aboutUs--div{
+        height: 40vh;
+    }
+    .aboutUs--heading{
+        padding-top: 25%;
+        font-size: 60px;
+    }
+
+}
+
+
