@@ -1,0 +1,26 @@
+.service--div{
+    background: url(../Icons/home2.png) bottom/cover no-repeat;
+    height: 80vh;
+}
+.service--heading{
+    font-family: homeHeading;
+    color: var(--cream-colour);
+    font-size: 80px;
+    padding-top:18%;
+    padding-left: 5%;
+    padding-right:5% ;
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    .service--div{
+        height: 40vh;
+    }
+    .service--heading{
+        padding-top: 25%;
+        font-size: 60px;
+    }
+
+}
+
+

@@ -1,7 +1,7 @@
 import React ,{Component} from 'react';
 import '../App.css';
 import './NavBar.css';
-
+import { Link } from 'react-router-dom';
 
 
 export default class NavBar extends Component{
@@ -37,14 +37,13 @@ export default class NavBar extends Component{
     return(
         <div>
             <nav className={`navbar--items ${scrolled ? 'scrolled' : ''}`} >
-                <h1>Rare Ceylon</h1>
+                <h1 className='logo'>Rare Ceylon</h1>
                 <ul id='navbar' className={this.state.clicked?"#navbar active":"#navbar"}>
                     <li className='items'>
-                        <a href='/' className='links'>Home</a>
+                        <Link to="/" className='links'>Home</Link>
                     </li>
-                    <li className='items'>
-                         
-                        <a href='/' className='links'>Services</a>
+                    <li className='items'> 
+                        <Link to="/services" className='links'>Services</Link>
                     </li>
                     <li className='items'>
                         
@@ -52,7 +51,7 @@ export default class NavBar extends Component{
                     </li>
                     <li className='items'>
                         
-                        <a href='/' className='links' >Contact</a>
+                        <a href='../pages/Home.js' className='links' >Contact</a>
                     </li>
                 </ul>
                 <div id='mobile' onClick={this.handlelick}>

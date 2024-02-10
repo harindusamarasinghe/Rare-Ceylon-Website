@@ -1,7 +1,7 @@
 import './WhyChooseUs.css';
 import '../App.css';
 import React from 'react';
-import imgRoot from "../Icons/7718877-removebg-preview.png"
+import imgRoot from "../Icons/idea.jpg"
 
 const WhyChooseUs = () => {
     return (

@@ -1,25 +1,18 @@
-import './App.css';
-import AboutUs from './Components/AboutUs';
-import Clients from './Components/Clients';
-import Footer from './Components/Footer';
-import HireUs from './Components/HireUs';
-import Home from './Components/Home';
-import NavBar from './Components/NavBar';
-import WhyChooseUs from './Components/WhyChooseUs';
-import Team from './Components/team';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Home/>
-      <HireUs/>
-      <AboutUs/>
-      <WhyChooseUs/>
-      <Clients/>
-      <Team/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

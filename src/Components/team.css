@@ -66,7 +66,6 @@
 }
 .sub-fields{
     display: flex;
-    gap: 5rem;
 }
 .sub-head{
     color: var(--text-colour);
@@ -74,7 +73,7 @@
     font-size: 40px;
 }
 .custom-textfield{
-    width: 20rem;
+    width: 30rem;
 }
 
 .button-81 {
@@ -82,6 +81,7 @@
   border: 0 solid #e2e8f0;
   box-sizing: border-box;
   color: #0d172a;
+  min-width: fit-content;
   cursor: pointer;
   display: inline-block;
   font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";

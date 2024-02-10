@@ -1,0 +1,89 @@
+.listing-container{
+    background-color: var(--yellow-colour);
+    height: 80vh;
+    
+}
+.listing-mainHead{
+    font-family: homeHeading;
+    font-size: 50px;
+    color: var(--text-colour);
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+.listing-box{
+    display: flex;
+    padding: 5%;
+    
+}
+.listing-box-head,.listing-box-para{
+    color: var(--brown-colour);
+    text-align: center;
+}
+.listing-box-head{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: homeHeading;
+  
+}
+.listing-box-para{
+    color: var(--text-colour);
+    padding: 2%;
+    margin: 2%;
+    line-height: 200%;
+    font-size: 15px;
+}
+.listing-box-1{
+    padding: 5%;
+    border-width: 0.1px;
+  border-top-color: rgb(235, 235, 235);
+  border-right-color: rgb(235, 235, 235);
+  border-left-color: var(--yellow-colour);
+  border-bottom-color: var(--yellow-colour);
+  border-style: solid;
+}
+
+.button-81 {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    box-sizing: border-box;
+    color: var(--text-colour);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .button-81:hover {
+    background-color: var(--text-colour);
+    color: var(--cream-colour);
+  }
+
+  @media (max-width: 850px) {
+    .listing-container{
+        height: fit-content;
+    }
+    .listing-box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .button-81{
+       align-content: center;
+    }
+    .listing-box-para{
+        text-align: left;
+    }
+  }

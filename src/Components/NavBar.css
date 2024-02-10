@@ -1,10 +1,17 @@
 *{
     color: white;
+    
   }
 
-  
+  .logo{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--yellow-colour);
+    cursor: pointer;
+      font-size: 30px;
+  }
   
   .navbar--items{
+    
       display: flex;
       justify-content: space-between;
       white-space: nowrap;
@@ -20,13 +27,7 @@
       width: 100%;
       position: fixed;
       z-index: 2;
-  }
-  h1{
-      cursor: pointer;
-      font-family: myHeadingFont;
-      font-size: 30px;
-  }
-  
+  }  
   
   nav .menu{
       display: none;
@@ -62,6 +63,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transition: all 0.3s ease-in-out;
+      
     }
     #navbar{
       display: flex;
