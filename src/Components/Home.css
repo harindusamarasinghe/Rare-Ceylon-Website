@@ -90,12 +90,12 @@
   @media (max-width: 850px) {
 
     .home--content{
-      height: 50vh;
+      height: 40vh;
   }
 
     .home--heading {
       font-size: 30px; 
-      padding-top: 20%; 
+      padding-top: 28%; 
     }
   
     .home--para {
@@ -104,6 +104,9 @@
   
     .home {
       margin-top: -90px;
+    }
+    .button-28 {
+      margin-top: -30%;
     }
   }
 

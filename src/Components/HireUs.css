@@ -120,11 +120,13 @@
       width: 100%; /* Make each item full width on smaller screens */
       background-size: cover; /* Adjust the background size for smaller screens */
     }
+    .item {
+    }
     .item:hover h6{
-        
+       
     }
     .item:hover p{
-        margin-top: -2%;
+        margin-top: 0%;
     }
     
   }

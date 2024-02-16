@@ -1,0 +1,24 @@
+.contact-background{
+    background: url(../Icons/image\ \(23\).jpg) center/cover no-repeat;
+    height: 80vh;
+}
+.contact--heading{
+    font-family: homeHeading;
+    color: var(--cream-colour);
+    font-size: 80px;
+    padding-top:18%;
+    padding-left: 5%;
+    padding-right:5% ;
+    text-align: right;
+}
+
+@media (max-width: 850px) {
+    .contact-background{
+        height: 40vh;
+    }
+    .contact--heading{
+        padding-top: 25%;
+        font-size: 60px;
+    }
+
+}

@@ -5,6 +5,7 @@ import Team from "../Components/team";
 import AboutUs from "../Components/AboutUs";
 import WhyChooseUs from "../Components/WhyChooseUs";
 import Footer from "../Components/Footer";
+import Reviews from "../Components/Reviews";
 
 const AboutUsPage =()=>{
     return(
@@ -12,6 +13,7 @@ const AboutUsPage =()=>{
             <NavBar/>
             <AboutUsHome/>
             <AboutUs/>
+            <Reviews/>
             <WhyChooseUs/>
             <Team/>
             <Footer/>

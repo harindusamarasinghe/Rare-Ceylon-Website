@@ -32,11 +32,13 @@ li{
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: -10px;
   }
   .social-buttons__button {
-    margin: 40px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-left: 0;
   }
   .social-button {
     border-radius: 50%;

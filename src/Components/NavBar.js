@@ -47,11 +47,11 @@ export default class NavBar extends Component{
                     </li>
                     <li className='items'>
                         
-                        <a href='/aboutus' className='links' >About</a>
+                        <Link to='/aboutus' className='links' >About</Link>
                     </li>
                     <li className='items'>
                         
-                        <a href='../pages/Home.js' className='links' >Contact</a>
+                        <Link to='/contact' className='links' >Contact</Link>
                     </li>
                 </ul>
                 <div id='mobile' onClick={this.handlelick}>

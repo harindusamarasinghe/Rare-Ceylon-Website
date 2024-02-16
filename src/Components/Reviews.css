@@ -1,0 +1,46 @@
+.review-head{
+    font-family: homeHeading;
+    font-size: 50px;
+    color: var(--text-colour);
+    text-align: center;
+    padding: 2.5%;
+}
+.review-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow reviews to wrap onto new lines */
+    justify-content: space-between; /* Add space between reviews */
+  }
+  
+  .review {
+    width: 40%; /* Set width for each review to fit two reviews in a row */
+    margin: 5%; /* Add some space between reviews */
+    
+  }
+
+  .score,.review-text,.name{
+    color: var(--brown-colour);
+    font-weight:500;
+    
+  }
+  .review-text{
+    line-height: 200%;
+  }
+
+  .score,.name{
+    font-family: Homeheading;
+    padding-bottom: 1rem;
+  }
+  .rev-image{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 2.5%;
+  }
+
+  @media (max-width:850px){
+    .review-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }

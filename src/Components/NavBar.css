@@ -114,8 +114,8 @@
           right: -100%;
           opacity: 0;
           width: 100%;
-          height: 100vh;
-          background-color: var(--text-colour);
+          height: 60vh;
+          background-color: var(--brown-colour);
           padding: 40px 10px;
           box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .2);
           transition:0.3s ease-in-out;
@@ -123,10 +123,10 @@
       
       #navbar.active{
           right: 0px;
-          opacity: 1;
+          opacity: 0.9;
       }
       nav ul li{
-          width: 20%;
+          width: 50%;
           text-align: center;
           margin-top: 10%;
       }

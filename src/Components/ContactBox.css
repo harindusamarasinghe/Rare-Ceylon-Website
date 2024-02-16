@@ -1,0 +1,93 @@
+.contact-box{
+    background-color: var(--yellow-colour);
+    display: flex;
+    padding: 7.5%;
+    align-items: center;
+}
+.contact-content{
+    flex: 1;
+}
+.contact-content-head{
+ color: var(--text-colour);   
+ font-family: homeHeading;
+ font-size: 40px;
+ margin-bottom: 5%;
+}
+
+.contact-address-para,.contact-phone{
+    color: var(--brown-colour);
+    padding-top: 2.5%;
+    font-weight: bold;
+    
+}
+.contact-follow{
+    margin-top: 5%;
+    color: var(--text-colour);
+    padding-top: 2.5%;
+    font-size: 30px;
+    font-family:homeHeading;
+}
+
+.contact-form{
+    flex: 1;
+    background-color: #fff;
+    padding: 2.5%;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .2);
+}
+.First-Name,.Last-Name,.Email-address,.Subject,.Your-Message{
+    margin: 2.5%;
+    width: 45%;
+    padding: 2%;
+    background-color: #FAFAFA;
+    border:1px solid #dddddd;
+}
+.Email-address,.Subject,.Your-Message{
+    width: 95%;
+}
+.Your-Message{
+    height: 7rem;
+}
+.contact-form-heading{
+    color: var(--text-colour);   
+    font-family: homeHeading;
+    font-size: 30px;
+    margin-left: 2.5%;
+}
+/* Placeholder styles */
+::placeholder {
+    color: #999; /* Placeholder text color */ 
+    text-align: left; /* Placeholder text alignment */
+    font-size: 16px;
+    
+
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: var(--primary-colour); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-left: 2.5%;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+/* Media query for smaller screens */
+@media (max-width: 950px) {
+    .contact-box{
+        display:flex ;
+        flex-direction: column;
+    }
+    .contact-follow{
+        margin-bottom: 5%;
+    }
+    .contact-form{
+        margin-top: 5%;
+    }
+
+}
